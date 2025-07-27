@@ -248,8 +248,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 For support and questions:
-- Email: support@sweetshop.com
-- GitHub Issues: [Create an issue](repository-url/issues)
+- Email: hemjshah052@gmail.com
+
 
 ---
 
