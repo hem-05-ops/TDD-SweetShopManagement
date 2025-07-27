@@ -214,7 +214,7 @@ sweet-shop-management/
 During the development of this Sweet Shop Management System, I leveraged AI tools to enhance productivity and code quality:
 
 ### AI Tools Used
-- **Claude/GPT**: Used for brainstorming API endpoint structures, generating component boilerplate, and debugging complex TypeScript issues
+- **Claude/GPT/Deepseek**: Used for brainstorming API endpoint structures, generating component boilerplate, and debugging complex TypeScript issues
 - **GitHub Copilot**: Assisted with writing unit tests, generating repetitive CRUD operations, and suggesting TypeScript type definitions
 
 ### How AI Was Used
@@ -240,10 +240,6 @@ AI was used as a collaborative coding partner, with all AI-generated code being 
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Support
 
