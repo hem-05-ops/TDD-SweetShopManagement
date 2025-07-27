@@ -244,8 +244,8 @@ AI was used as a collaborative coding partner, with all AI-generated code being 
 ## Support
 
 For support and questions:
-- Email: hemjshah052@gmail.com
-
+- GitHub Issues: [Create an issue](https://github.com/hem-05-ops/TDD-SweetShopManagement/issues)  
+- Developer Contact: hemjshah052@gmail.com  
 
 ---
 
