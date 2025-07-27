@@ -12,14 +12,11 @@ This system features a React frontend with a Node.js/Express backend, JWT authen
 - Browse extensive catalog of Indian sweets (Mithai, Laddu, Halwa, Barfi)
 - Search and filter sweets by name, category, and price range
 - User registration and authentication
-- Shopping cart functionality
-- Responsive design optimized for all devices
 
 ### Admin Features
 - Inventory management (Add, Edit, Delete sweets)
 - Stock management and restocking
 - Low stock alerts
-- Dashboard with sales statistics
 - Admin-only product management interface
 
 ### Technical Features
@@ -28,7 +25,6 @@ This system features a React frontend with a Node.js/Express backend, JWT authen
 - Real-time inventory updates
 - Optimistic UI updates
 - Comprehensive error handling
-- Mobile-first responsive design
 
 ## Default Credentials
 
@@ -216,7 +212,7 @@ During the development of this Sweet Shop Management System, I leveraged AI tool
 ### AI Tools Used
 - **Claude/GPT/Deepseek**: Used for brainstorming API endpoint structures, generating component boilerplate, and debugging complex TypeScript issues
 - **GitHub Copilot**: Assisted with writing unit tests, generating repetitive CRUD operations, and suggesting TypeScript type definitions
-
+  
 ### How AI Was Used
 1. **Architecture Planning**: Used AI to brainstorm the optimal database schema for the sweet shop domain, including relationships between users, sweets, orders, and cart items
 2. **Boilerplate Generation**: AI generated initial React component structures, Express route handlers, and TypeScript interface definitions
