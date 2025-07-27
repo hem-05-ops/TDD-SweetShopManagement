@@ -151,7 +151,6 @@ The project includes comprehensive TDD testing that validates:
 
 🔐 Authentication System - 4/4 tests passed
 🍭 Sweets Management - 4/4 tests passed  
-🛒 Shopping Cart - 3/3 tests passed
 📦 Inventory Management - 3/3 tests passed
 ```
 
