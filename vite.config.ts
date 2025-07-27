@@ -3,24 +3,19 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
-  plugins: [react()],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./client/src"),
-      "@server": path.resolve(__dirname, "./server"),
-      "@shared": path.resolve(__dirname, "./shared"),
-    },
-  },
+  root: path.resolve(__dirname, "./client"), // Points to client folder
   build: {
-    outDir: path.resolve(__dirname, "./dist/client"),
+    outDir: path.resolve(__dirname, "./dist"), // Outputs directly to dist
     emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, "client/index.html") // Explicit entry
+      }
+    }
   },
   server: {
     proxy: {
-      "/api": {
-        target: "http://localhost:3000",
-        changeOrigin: true,
-      },
-    },
-  },
+      '/api': 'http://localhost:3000'
+    }
+  }
 });
